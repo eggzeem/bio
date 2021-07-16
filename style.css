@@ -1,0 +1,71 @@
+a{
+  color:#2F4F4F;
+  text-decoration: none;
+}
+h1{
+ font-size:3rem;
+ text-align:center;
+ border-bottom:2px solid black;
+ margin:0;
+ padding:20px;
+ }
+ ul{
+   border-right:1px solid black;
+   width:150px;
+   margin:0;
+   padding:20px;
+ }
+ #active{
+   text-decoration: underline;
+   color:#800000;
+ }
+ #grid{
+   display:grid;
+   grid-template-columns:150px 1fr;
+ }
+ #grid ul{
+   padding-left: 30px;
+   padding-right: 5px;
+ }
+ #article{
+ padding-left: 60px;
+ }
+ #pic{
+   display:grid;
+   grid-template-columns: 232px 255px 1fr;
+ }
+ @media(max-width:933px){
+   #grid{
+     display:block;
+   }
+   ul{
+     border-right:none;
+   }
+   h1{
+     border-bottom:none;
+     }
+     #article{
+     padding-left:0px
+     }
+ }
+
+/*-- 3.html에서만의 코드 --*/
+ .bluee{
+   border-collapse: collapse;
+   width:500px;
+   height:150px;
+   text-align: center;
+ }
+ .bluee th{
+   border-bottom: 2px black solid;
+
+ }
+ .bluee td{
+   border :1px gray solid;
+   background-color : #DCDCDC;}
+
+   #con{
+     padding-left: 60px;
+   }
+   #cal{
+     display:inline;
